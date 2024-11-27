@@ -12,7 +12,7 @@ GET {{apiUrl}}
 ### Recipe Detail Endpoint
 GET {{apiUrl}}recipe/1
 
-### Add Recipe Endpoint
+### Add Recipe Endpoints
 POST {{apiUrl}}recipe/add
 Content-Type: application/json
 
@@ -33,4 +33,5 @@ Content-Type: application/json
 	"prepTime": 30,
 	"difficulty": "Easy"
 }
+
 	

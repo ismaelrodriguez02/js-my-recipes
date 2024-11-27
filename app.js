@@ -15,4 +15,4 @@ app.use('/', require('./routes/pages/recipes'))
 // server
 const url = colors.blue('http://localhost:3010/')
 const message = `Server is running on port ${port}. Visit ${url} in your browser.`
-app.listen(port, () => console.log(message))
+app.listen(port, () => console.log(message)) 
